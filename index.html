@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -5,136 +6,350 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
     <title>Ailen De Santis Portfolio</title>
+    <link href="index.css" rel="stylesheet">
 </head>
 
 <body>
-    <header>
-        <h1>Ailen De Santis</h1>
-        <a href="https://www.linkedin.com/in/ailen-de-santis-fullstack/">Linkedin</a>
-        <a href="https://www.instagram.com/ailendesantis/">Instagram</a>
-        <a href="https://github.com/AilenDeSantis">GitHub</a>
-        <button>Login</button>
-        <img src="images/preview.jpg"> 
+    <header class="header">
+        <h1 class="nombreg">Ailen De Santis</h1>
+        <a href="https://www.linkedin.com/in/ailen-de-santis-fullstack/" class="linkedin"><i class="bi bi-linkedin"></i></a>
+        <a href="https://www.instagram.com/ailendesantis/" class="instagram"><i class="bi bi-instagram"></i></a>
+        <a href="https://github.com/AilenDeSantis" class="github"><i class="bi bi-github"></i></a>
+        <button class="login">Login</button>
+        <img class="banner" src="images/programacion-temario.jpg"> 
     </header>
     <div>
-        <img src="images/DSCN7326.JPG">
-        <h1>Ailen De Santis</h1>
-        <h4>Full Stack Developer Jr</h4>
-        <h1>About</h1>
-        <p>Full Stack Developer, Bachelor of Film and TV and Piano Teacher</p>
+        <img class="mifoto" src="images/DSCN7326.JPG">
+        <h1 class="nombre">Ailen De Santis</h1>
+        <h4 class="rol">Full Stack Developer Jr</h4>
+        <h2 class="about">About</h2>
+        <p class="abouttext">Full Stack Developer, Bachelor of Film and TV and Piano Teacher</p>
+        <button class="edit edit1" ><i class="bi bi-pencil-fill"></i></button>
+        <button class="delete delete1"><i class="bi bi-x-lg"></i></button>
     </div>
-    <div>
-        <h1>Experience</h1>
-        <ul>
-            <li>Full Stack Developer [Academic]<br>
-                Henry<br>
-                2022
+    <div class="experience">
+        <!-- BOTONES -->
+        <button class="add add2"><i class="bi bi-plus-lg"></i></button>
+        <button class="edit edit2"><i class="bi bi-pencil-fill"></i></button>
+        <button class="delete delete2"><i class="bi bi-x-lg"></i></button>
+        <button class="edit edit3"><i class="bi bi-pencil-fill"></i></button>
+        <button class="delete delete3"><i class="bi bi-x-lg"></i></button>
+        <button class="edit edit4"><i class="bi bi-pencil-fill"></i></button>
+        <button class="delete delete4"><i class="bi bi-x-lg"></i></button>
+        <button class="edit edit5"><i class="bi bi-pencil-fill"></i></button>
+        <button class="delete delete5"><i class="bi bi-x-lg"></i></button>
+        <!-- FIN BOTONES -->
+        <h1 class="tituloexp">Experience</h1>
+        <ul style="list-style: none" class="listexp">
+            <li class="itemsexp">
+                <h4>Full Stack Developer [Academic]</h3>
+                    <p>Henry</p>
+                    <p>2022</p>
+                </li>
+                <li class="itemsexpb">
+                    <h4>Photographer</h4>
+                    <p>Independent Professional </p>
+                    <p>2019-2021</p>
+                </li>
+                <li class="itemsexp">
+                    <h4>Web series chapter general direction internship</h4>
+                    <p>Universidad Nacional de Córdoba</p>
+                <p>2019</p>
             </li>
-            <li>Photographer<br>
-                Independent Professional <br>
-                2019-2021
-            </li>
-            <li>Web series chapter general direction internship<br>
-                Universidad Nacional de Córdoba<br>
-                2019
-            </li>
-            <li>College practice. Intern in photography and camera<br>
-                Universidad Nacional de Córdoba<br>
-                2019
+            <li class="itemsexpb">
+                <h4>College practice. Intern in photography and camera</h4>
+                <p>Universidad Nacional de Córdoba</p>
+                <p>2019</p>
             </li>
         </ul>
     </div>
-    <div>
-        <h1>Education</h1>
-        <ul>
-            <li>
-                <h2>Argentina Programa</h2>
+    <div class="education">
+        <!-- BOTONES -->
+        <button class="add add3"><i class="bi bi-plus-lg"></i></button>
+        <button class="edit edit6"><i class="bi bi-pencil-fill"></i></button>
+        <button class="delete delete6"><i class="bi bi-x-lg"></i></button>
+        <button class="edit edit7"><i class="bi bi-pencil-fill"></i></button>
+        <button class="delete delete7"><i class="bi bi-x-lg"></i></button>
+        <button class="edit edit8"><i class="bi bi-pencil-fill"></i></button>
+        <button class="delete delete8"><i class="bi bi-x-lg"></i></button>
+        <button class="edit edit9"><i class="bi bi-pencil-fill"></i></button>
+        <button class="delete delete9"><i class="bi bi-x-lg"></i></button>
+        <button class="edit edit10"><i class="bi bi-pencil-fill"></i></button>
+        <button class="delete delete10"><i class="bi bi-x-lg"></i></button>
+
+        <h1 class="tituloedu">Education</h1>
+        <ul style="list-style: none" class="listedu">
+            <li class="itemsedu">
+                <h4>Argentina Programa</h3>
                 <p>Full Stack Developer</p>
                 <p>Jun 2022 - May 2023</p>
             </li>
-            <li>
-                <h2>Henry</h2>
+            <li  class="itemsedub">
+                <h4>Henry</h2>
                 <p>Full Stack Developer</p>
                 <p>Mar 2022 - Oct 2022</p>
             </li>
-            <li>
-                <h2>Universidad Nacional de Córdoba</h2>
+            <li class="itemsedu">
+                <h4>Universidad Nacional de Córdoba</h2>
                 <p>Degree in Film and Television</p>
                 <p>2015 - 2021</p>
             </li>
-            <li>
-                <h2>Colegio Nuestra Señora Inmaculada</h2>
+            <li class="itemsedub">
+                <h4>Colegio Nuestra Señora Inmaculada</h2>
                 <p>Secondary degree oriented to economics and management of organizations</p>
                 <p>2009 - 2014</p>
             </li>
-            <li>
-                <h2>Conservatorio Iberoamericano Rossini</h2>
+            <li class="itemsedu">
+                <h4>Conservatorio Iberoamericano Rossini</h2>
                 <p>Piano, theory and music theory teacher</p>
                 <p>2006 - 2011</p>
             </li>
         </ul>
     </div>
-    <div>
-        <h1>Courses</h1>
-        <ul>
-            <li>
-                <h2>Platzi</h2>
+    <div class="courses">
+        <h1 class="titulocur">Courses</h1>
+        <!-- BOTONES -->
+        <button class="add add4"><i class="bi bi-plus-lg"></i></button>
+        <button class="edit edit11"><i class="bi bi-pencil-fill"></i></button>
+        <button class="delete delete11"><i class="bi bi-x-lg"></i></button>
+        <button class="edit edit12"><i class="bi bi-pencil-fill"></i></button>
+        <button class="delete delete12"><i class="bi bi-x-lg"></i></button>
+        <button class="edit edit13"><i class="bi bi-pencil-fill"></i></button>
+        <button class="delete delete13"><i class="bi bi-x-lg"></i></button>
+        <button class="edit edit14"><i class="bi bi-pencil-fill"></i></button>
+        <button class="delete delete14"><i class="bi bi-x-lg"></i></button>
+        <button class="edit edit15"><i class="bi bi-pencil-fill"></i></button>
+        <button class="delete delete15"><i class="bi bi-x-lg"></i></button>
+        <button class="edit edit16"><i class="bi bi-pencil-fill"></i></button>
+        <button class="delete delete16"><i class="bi bi-x-lg"></i></button>
+        <button class="edit edit17"><i class="bi bi-pencil-fill"></i></button>
+        <button class="delete delete17"><i class="bi bi-x-lg"></i></button>
+        <button class="edit edit18"><i class="bi bi-pencil-fill"></i></button>
+        <button class="delete delete18"><i class="bi bi-x-lg"></i></button>
+        <button class="edit edit19"><i class="bi bi-pencil-fill"></i></button>
+        <button class="delete delete19"><i class="bi bi-x-lg"></i></button>
+
+
+        <ul style="list-style: none" class="listcur">
+            <li class="itemscur">
+                <h4>Platzi</h2>
                 <p>Git and GitHub Professional Course</p>
                 <p>Oct 2022</p>
             </li>
-            <li>
-                <h2>OpenBootcamp</h2>
+            <li class="itemscurb">
+                <h4>OpenBootcamp</h2>
                 <p>Introduction to Programming</p>
                 <p>Oct 2022</p>
             </li>
-            <li>
-                <h2>Photo club</h2>
+            <li class="itemscur">
+                <h4>Photo club</h2>
                 <p>Camera Raw Lightroom Tutorial</p>
                 <p>2022</p>
             </li>
-            <li>
-                <h2>Platzi</h2>
+            <li class="itemscurb">
+                <h4>Platzi</h2>
                 <p>Practical Foundations of Machine Learning</p>
                 <p>Oct 2021</p>
             </li>
-            <li>
-                <h2>Platzi</h2>
+            <li class="itemscur">
+                <h4>Platzi</h2>
                 <p>Basic course of Algorithms and Logical Thinking</p>
                 <p>Sep 2021</p>
             </li>
-            <li>
-                <h2>Píldoras Informáticas</h2>
+            <li class="itemscurb">
+                <h4>Píldoras Informáticas</h2>
                 <p>Basic Python</p>
                 <p>Aug 2021 - Sep 2021</p>
             </li>
-            <li>
-                <h2>Platzi</h2>
+            <li class="itemscur">
+                <h4>Platzi</h2>
                 <p>Business Analysis for Data Science</p>
                 <p>Aug 2021</p>
             </li>
-            <li>
-                <h2>Platzi</h2>
+            <li class="itemscurb">
+                <h4>Platzi</h2>
                 <p>Investment in Cryptocurrencies</p>
                 <p>May 2020</p>
             </li>
-            <li>
-                <h2>FICDE</h2>
+            <li class="itemscur">
+                <h4>FICDE</h2>
                 <p>Practical theoretical course of cardio-pulmonary resuscitation (CPR) and first aid</p>
                 <p>Mar 2018</p>
             </li>
         </ul>
     </div>
-    <div>
-        <h1>Hard & Soft Skills</h1>
+    <div class="skills">
+        <button class="add add5"><i class="bi bi-plus-lg"></i></button>
+        <h1 class="tituloski">Hard & Soft Skills</h1>
         <!-- Poner por ej: Javascript, React, Redux, Node js, VSC, Git, GitHub, HTML, CSS
         SQL, Adobe Ligthroom, Adobe Premiere Pro, 
         SOFT: Comunicación eficaz, empatía, escucha activa, gestion del tiempo, planificación
         y organización, responsabilidad,   -->
+
+        <h3 style="text-align: center">Hard Skills</h3>
+        
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="progress-title">HTML</h3>
+                    <div class="progress">
+                        <div class="progress-bar" style="width:95%; background:rgba(84, 83, 173, 0.798)">
+                            <div class="progress-value">95%</div>
+                        </div>
+                    </div>
+                    <h3 class="progress-title">CSS</h3>
+                    <div class="progress">
+                        <div class="progress-bar" style="width:80%; background:rgb(158, 156, 206)">
+                            <div class="progress-value">80%</div>
+                        </div>
+                    </div>
+                    <h3 class="progress-title">JAVASCRIPT</h3>
+                    <div class="progress">
+                        <div class="progress-bar" style="width:70%; background:#e75aea;">
+                            <div class="progress-value">70%</div>
+                        </div>
+                    </div>
+                    <h3 class="progress-title">BOOTSTRAP</h3>
+                    <div class="progress">
+                        <div class="progress-bar" style="width:35%; background:#ca4eed;">
+                            <div class="progress-value">35%</div>
+                        </div>
+                    </div>
+                    <h3 class="progress-title">REACT</h3>
+                    <div class="progress">
+                        <div class="progress-bar" style="width:45%; background:#0039f5;">
+                            <div class="progress-value">45%</div>
+                        </div>
+                    </div>
+                    <h3 class="progress-title">REDUX</h3>
+                    <div class="progress">
+                        <div class="progress-bar" style="width:45%; background:rgba(127, 81, 141, 0.798);">
+                            <div class="progress-value">45%</div>
+                        </div>
+                    </div>
+                    <h3 class="progress-title">NODE JS</h3>
+                    <div class="progress">
+                        <div class="progress-bar" style="width:55%; background:rgb(186, 156, 206);">
+                            <div class="progress-value">55%</div>
+                        </div>
+                    </div>
+                    <h3 class="progress-title">VISUAL STUDIO CODE</h3>
+                    <div class="progress">
+                        <div class="progress-bar" style="width:95%; background:rgb(222, 146, 179);">
+                            <div class="progress-value">95%</div>
+                        </div>
+                    </div>
+                    <h3 class="progress-title">GIT</h3>
+                    <div class="progress">
+                        <div class="progress-bar" style="width:85%; background:#fd9661;">
+                            <div class="progress-value">85%</div>
+                        </div>
+                    </div>
+                    <h3 class="progress-title">GITHUB</h3>
+                    <div class="progress">
+                        <div class="progress-bar" style="width:95%; background:#f95072;">
+                            <div class="progress-value">95%</div>
+                        </div>
+                    </div>
+                    <h3 class="progress-title">SQL</h3>
+                    <div class="progress">
+                        <div class="progress-bar" style="width:60%; background:#df0588;">
+                            <div class="progress-value">60%</div>
+                        </div>
+                    </div>
+                    <h3 class="progress-title">PHOTOGRAPHY</h3>
+                    <div class="progress">
+                        <div class="progress-bar" style="width:100%; background:#c3009d;">
+                            <div class="progress-value">100%</div>
+                        </div>
+                    </div>
+                    <h3 class="progress-title">ADOBE LIGHTROOM</h3>
+                    <div class="progress">
+                        <div class="progress-bar" style="width:80%; background:#9c11b5;">
+                            <div class="progress-value">0%</div>
+                        </div>
+                    </div>
+                    <h3 class="progress-title">ADOBE PREMIERE PRO</h3>
+                    <div class="progress">
+                        <div class="progress-bar" style="width:70%; background:#61226c;">
+                            <div class="progress-value">70%</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h3 style="text-align: center">Soft Skills</h3>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="progress-title">Efficient Communication</h3>
+                    <div class="progress">
+                        <div class="progress-bar" style="width:80%; background:rgba(104, 48, 156, 0.802);">
+                            <div class="progress-value">80%</div>
+                        </div>
+                    </div>
+                    <h3 class="progress-title">Empathy</h3>
+                    <div class="progress">
+                        <div class="progress-bar" style="width:70%; background:rgba(77, 48, 156, 0.802);">
+                            <div class="progress-value">70%</div>
+                        </div>
+                    </div>
+                    <h3 class="progress-title">Active Listening</h3>
+                    <div class="progress">
+                        <div class="progress-bar" style="width:80%; background:rgba(68, 59, 201, 0.802);">
+                            <div class="progress-value">80%</div>
+                        </div>
+                    </div>
+                    <h3 class="progress-title">Time Management</h3>
+                    <div class="progress">
+                        <div class="progress-bar" style="width:90%; background:rgba(63, 153, 232, 0.802);">
+                            <div class="progress-value">90%</div>
+                        </div>
+                    </div>
+                    <h3 class="progress-title">Planning and Organization</h3>
+                    <div class="progress">
+                        <div class="progress-bar" style="width:90%; background:rgba(121, 215, 249, 0.895);">
+                            <div class="progress-value">90%</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="projects">
+        <!-- BOTONES -->
+        <button class="add add6"><i class="bi bi-plus-lg"></i></button>
+        <button class="edit edit20"><i class="bi bi-pencil-fill"></i></button>
+        <button class="delete delete20"><i class="bi bi-x-lg"></i></button>
+        <button class="edit edit21"><i class="bi bi-pencil-fill"></i></button>
+        <button class="delete delete21"><i class="bi bi-x-lg"></i></button>
+        <!-- FIN BOTONES -->
+        <h1 class="titulopro">Projects</h1>
+        <h4 class="titulopro">Developets</h2>
+            <p class="textpro">
+            Group final project carried out during the course of the "Soy Henry" bootcamp.<br>
+            It is an e-commerce or online petshop called "Developets" for the purchase of various products for pets. Built to be used as both user and administrator.<br>
+            It includes searches, filters, favorites, shopping cart, payment gateway, comments and reviews section with their respective rating, admin dashboard with the functionalities
+            relevant.<br>
+            Technologies: Javascript | React | Redux | Node.js | HTML | CSS | Express | Sequelize | Postrgres |<br>
+        <a href="https://github.com/alberto8812/Pet-store-ecommerce">Project repository</a></p>
+        <h4 class="titulopro">Countries App</h2>
+            <p class="textpro">Individual project developed during the "Soy Henry" Bootcamp course.<br>
+        Development of a SPA (Single Page Application) using React for the Front End and Redux as state
+        management. All components were developed with CSS without the use of external libraries.
+        The SPA consumes data from an API through a Back End developed in Node.JS
+        using Express, adding new functionality to the original API.<br>
+        Some features of the project: Search cache, ordering and filters, creation form, etc.
+        The theme of this application is about existing countries. <br>
+        It has a landing page, a home where you can find the list of countries with the corresponding filters, a detail area where you can access the pertinent information of the country in question and, finally, a creation form to assign a new tourist activity to said country.<br>
+        <a href="https://github.com/AilenDeSantis/PI-Countries">Project repository</a></p>
     </div>
 </body>
 
